@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:foregroundTint="#2196F3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="101dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="576dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#000000"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="101dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="576dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="101dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="292dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton_sum"
+        android:layout_width="409dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="448dp"
+        android:background="#667A9C"
+        android:text="CALCULAR"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/boton_aleatrorio"
+        android:layout_width="159dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="280dp"
+        android:background="#737370"
+        android:text="PRESIONA PA INICIAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="194dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#090909"
+        android:gravity="center"
+        android:text="@string/suma_random"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

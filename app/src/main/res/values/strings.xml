@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RANDOM</string>
+    <string name="Texto_en_pantalla">Muestra suma</string>
+    <string name="valor_mostrado">valor_mostrado</string>
+    <string name="valores_mostrados">Valores_mostrados</string>
+    <string name="suma_random">SUMA RANDOM</string>
+    <string name="textview">TextView</string>
+    <string name="textviewUNO">TextView</string>
+    <string name="textviewDOS">TextView</string>
+
+</resources>
